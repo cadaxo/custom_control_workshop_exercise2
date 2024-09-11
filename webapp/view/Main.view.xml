@@ -1,0 +1,18 @@
+<mvc:View controllerName="project1.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns:core="sap.ui.core"
+    xmlns="sap.m" xmlns:custom="project1.controls">
+    <Page id="page" title="{i18n>title}">
+        <content>
+
+
+            <custom:Train>
+                <custom:wagons>
+                    <custom:Wagon label="100"  press="onPressEvent"  />
+                    <custom:Wagon label="101"  press="onPressEvent" />
+                    <custom:Wagon label="102"  press="onPressEvent" />
+                </custom:wagons>
+            </custom:Train>
+
+        </content>
+    </Page>
+</mvc:View>
